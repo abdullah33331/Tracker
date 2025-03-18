@@ -1,6 +1,6 @@
 @echo off
-title Tracker - Geolocator
-color A
-set /p ip ="Enter ip: "
-curl ipinfo.io/%ip%
+Title Tracker - Geolocator
+Color A
+set /p ip="Enter ip address: "
+curl https://curl ipinfo.io/%ip%
 pause
